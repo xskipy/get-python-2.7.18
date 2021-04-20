@@ -1,5 +1,7 @@
 # usage
 # bash get-python-2.7.18.sh
+sudo apt-get remove --purge python
+sudo apt-get remove --purge python2
 sudo apt-get update
 sudo apt-get install build-essential checkinstall -y
 sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev -y
